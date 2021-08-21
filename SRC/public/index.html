@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participantes del evento</title>
+    <link href="./styles.css" rel="stylesheet"/>
+</head>
+<body onload="obtenerParticipantes()">
+    <div class="contenedor" id="cabecera">
+        <h1>Listado de personas</h1>
+    </div>
+
+    <div class="contenedor" >
+        <div class="elemento">
+            <ul id="personas">
+                <!--<li>Juan Perez</li>-->
+            </ul>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <div style="text-align: center;">
+            <button style="cursor: pointer;" onclick="agregarPersona()">+</button>
+        </div>
+        <form id="forma">
+            <input type="text" id="documento" placeholder="Documento">
+            <input type="text" id="nombre" placeholder="Nombre">
+        </form> 
+    </div>
+
+    <script src="index.js"></script>
+    <!--<script src="/SRC/JS/persona.js"></script>-->
+    <!--<script src="/SRC/JS/app.js"></script>-->
+</body>
+</html>
